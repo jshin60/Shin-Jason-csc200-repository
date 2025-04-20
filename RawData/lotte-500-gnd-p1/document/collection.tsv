@@ -1,0 +1,55 @@
+1932853	Some simple variant: http://mrbs.sourceforge.net/
+1773403	If you use the snap, $ anbox.appmgr is your friend.
+91815	Number 2 has a definite error. It should be I'd rather go swimming than play tennis.
+931383	If you don't need comparing, only resuming you could transfer files trough FTP or HTTP.
+1859706	For me it was a cache issue... yum clean all yum update and it should work after that.
+558613	A mixture contains different compounds/elements. Pure water only contains 1 type of molecule/compound - H2O, making it a pure substance
+1030994	According to your update, it might be a faulty network card on PC4. Try replacing the card, or switching cards between computers.
+138	You too! is colloquially used; one can consider using The same to you! or A Merry Christmas to you too! for much formal events.
+437183	In the original Marvel Super Heroes role-playing game, Spider-Man had Incredible (40) strength, which was described as the ability to press 10 tons.
+412915	As of Book 3, some non benders have gained air bending almost overnight, so there are much more than just Tenzin and his children.
+1039352	HDMI, like most modern cable interfaces, was designed to support hotplugging. The HDMI connector uses pin 19 as "Hot plug detect".
+948845	What client are you referring to ? Teradata's download page has a list of drivers and access modules - most of which have a Linux version.
+1017220	I installed their Prism Converter: it hijacked the file association to -ZIP which downloaded their own NCH unzipper. This is trojan practices.
+1140108	For 10.10: not shell but UserShell: sudo dscl localhost -change /Local/Default/Users/USERNAME UserShell /bin/bash /bin/ksh
+2118227	Blacklist the read request. get is not SFTP protocol request. That's OpenSSH sftp client command that internally uses open, read and close requests.
+108123	Several options: "Serious" or "major". In the US, crimes are divided into "felony" and "misdemeanor" (but these are technical legal terms, not a matter of opinion)
+2142620	buddybuzzer is a cool app for Android. It doesn't have too many things to confuse. Have some added features like ring notification. Simple but useful.
+2291815	Courtesy of Youtube... http://www.youtube.com/watch?v=CMz1tXBVT1s Just gotta find an old wire-framed coathanger!
+100122	I would consider the sentence more cohesive without the comma. However, in more formal writing you could insert the comma, it just depends on your writing style.
+993410	You can use devilspie to handle several behaviours under your Gnome's window manager, for instance the "always on top" you are searching for. Here's an example.
+1914550	Looks like Samba 4 only, and that version isn't in squeeze or squeeze-backports. You may be able to backport it yourself from unstable or experimental, though.
+433584	Because Darth Vader (aka Anakin Skywalker) is Leia's father. And Kylo Ren Is also the son of Leia. It takes two to tango.
+1039350	Yes, all these monitor ports are hot pluggable. I've plugged and unplugged my HDMI device many times and there was never no problem.
+1894656	Maybe not too relevant for the (external) Internet connection, but might well make a difference for inter-server communication within your data center (between app server and database server for example).
+2142356	If you are using an Android Phone, you can use Onliner for Facebook. You can track your friends, and it will notify you when any of them come online.
+2326138	Vinegar should be able to dissolve copper stains. Those stains are commonly copper hydroxocarbonate AKA copper carbonate hydroxide, which easily dissolves into copper acetate.
+394206	The show only shows you 4, Tenzen and his 3 children 2 girls and 1 boy and one boy on the way. I didn't count the one on the way.
+1428988	This is the ATtiny85. It comes in sizes from small to very, very small. This is an Arduino core that works with the ATtiny85.
+1576485	You can do this by downloading the GParted Live CD or USB. Boot into GParted and resize your Ubuntu partition however you see fit.
+46922	I agree with the person who says that nope is dismissive and slightly rude and I would add that a text nope feels rude to the recipient. It feels like a "final" no.
+916329	Log off will log out of your session, but the computer will remain running. You have the option to log in under another user. Shutdown will logout and turn the computer off :)
+1645123	You can read the various Debian documentation: Debian New Maintainers' Guide - intended at new package maintainers like yourself. (PDF here.) Debian FAQ: Package management basics. Package management tools.
+1995690	You probably have sh or something installed. Do this: apt-get install bash bash-completion command-not-found After change the default shell for you user: usermod -s /bin/bash USERNAME
+1894658	Usually your server hard-drives can't supply that much data for long time, so it basically doesn't mean a lot unless you know what you're doing - both hardware wise, and software wise.
+1135552	Some basic unix commands are implemented here: http://www.unix4j.org Note that only text-processing related commands are available and the implementation is not really like GNU tools --- but maybe it helps anyway.
+1217157	/mnt/c is the exact same as C:\. It's just the syntax for getting to it from WSL. Look in C:\Users\<username>\AppData\Local\Lxss\rootfs.
+1407330	As per my comment Reed switch only see a 12V signal and the current through it is small (mA). R4 ensures that the BJT is kept off when the switch is open.
+1552434	I found the answer. Use the command metacity --replace. I am surprised that I didn't recieve a response to such a simple question! Well, at least I earned the tumbleweed badge :)
+23	"Nope" is informal. You wouldn't usually want to use it, for example, answering questions for a job interview, but it would be an appropriate answer to a friend's question "Have you seen that movie yet?"
+1919693	It seems to be saying that you have conflict markers still in your code. That means lines of ">>>>", "<<<<" and "====". This is probably because you had a conflict and simply marked it as resolved without actually resolving it.
+2140599	There is no way to see if chats were deleted, unless someone saved the page before the fact. But there is a way to see if the message was read, archived or classified as spam
+26	Nope is used informally, normally during chat where you want to give a quick, fluid answer to a question without halting it like 'No' would. They both mean the same thing, and 'Nope' is very rarely written.
+1203436	I edit my huge files with Microsoft Visual Studio. It is super fast and handles any size! try it! You can download free version (Community edition) UPDATE: Notepad++ build 64bit is available now. You can use it.
+1712709	From the output of the lshw command, I can safely conclude you forgot to install the nVidia drivers... So have a look here on how to install them and then the problem will go away! :-)
+2428213	The negative battery terminal was damaged. There was poor grounding, which did not lead to complete loss of power in the car, but was enough to stall the engine.. The car is working fine after replacing the terminal.
+551773	A Lewis acid can accept a pair of electrons from a Lewis base. The boron in BF3 is electron poor and has an empty orbital, so it can accept a pair of electrons, making it a Lewis acid.
+402986	If the only blood connection to the Starks is from 1000 years ago, then there must be thousands of Stark descendants with stronger claims - 2nd, 3rd or 4th degree cousins to Rob, the North must be teeming with them.
+789179	Yes, absolutely add it, along with the publications that resulted. And, you should consider getting a letter of recommendation from the professor. Your lack of formal affiliation is of no consequence. It is the work that matters. Don't hesitate here.
+886825	They're "protected" for this exact reason. They don't want you to move them to your computer. You'd have to look into some kind of DRM circumvention, and I'm not going into that.
+1225763	You should update (in the English document) the styles TOC 1 through TOC 9 (or whatever the number of levels you actually use) to reflect the indentation that you want. See this question in the Microsoft Community forums.
+368988	No. Example: If all of your cards face up on the board are red, and the cards that come up every third card are also red, and none of them are aces. You lose. Do not pass go, do not collect $200.
+1395762	YES This is called a battery: An electric battery is a device consisting of one or more electrochemical cells You can connect as many cells you want in series and parallel and create a battery with any amount of stored energy.
+20	From here, they have no difference in meaning; but nope is more informal, only used in a sense of opposite to yes (or yup). Also, nope is not used often in writing. You wouldn't say "there were nope errors", for example.
+1195235	Since you have asked for alternative: The less utility could be an alternative for tail -F. It will have to be run as follows: less --follow-name filename.log and press Shift + F. This will give you same results as tail -F.
+492301	I have the 35mm 1.8 and the 50mm 1.4 - and for people wanting thier 1st fixed prime I always point them at the 35mm 1.8 1st. Its cheap, light and will work on your D3000.
