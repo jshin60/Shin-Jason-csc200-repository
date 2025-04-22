@@ -1,0 +1,6 @@
+Number of datapoints in combination consideration: 459
+Elapsed extraction time: 0.045033366000097885
+Elapsed partition time: 7.229699986055493e-05
+Elapsed write time: 0.03195233099995676
+Elapsed recombination time: 0.14571646000058536
+Elapsed Final Indexing time: 0.001078901999790105
