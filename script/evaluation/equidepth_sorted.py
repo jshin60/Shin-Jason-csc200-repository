@@ -12,10 +12,11 @@ path_to_code = '/home/jshin/csc200/'
 partition_names = ['p1', 'p2', 'p3', 'p4', 'p5']
 partition_d_proj = [8, 8, 8, 8, 8, 8]
 partition_r_reps = [20, 20, 20, 20, 20, 20]
-top_k = 5
+top_k = 10
 k_sim = 5
-n_candidate = [20, 30, 50]
-parallel = True
+n_candidate = [20]
+parallel = False
+build_indexes = False
 
 #Document information class
 class document():
@@ -95,6 +96,11 @@ elapsed_write_time = end_time - start_time
 def Muvera(arguments):
     os.system('python3.10 eval_muvera.py ' + arguments)
 
+if build_indexes:
+    for n in range(len(partition_names)):
+        build_index_path = f'{path_to_code}multi-vector-retrieval/script/data'
+        os.system(f'cd {build_index_path} && python3.10 build_index.py {dataset_name}-{partition_names[n]}')
+
 for n in range(len(partition_names)):
     if parallel == True:
         n = multiprocessing.Process(target=Muvera, args = {dataset_name+"-"+partition_names[n] + " " + str(top_k) + " " + str(partition_d_proj[n]) + " " + str(partition_r_reps[n])})
@@ -163,9 +169,12 @@ for n in n_candidate:
     f.close()
 end_time = time.perf_counter()
 elapsed_indexing_time = end_time - start_time
-print("Number of datapoints in combination consideration: " + str(sum_of_re_evaluation))
-print("Elapsed extraction time: " + str(elapsed_extract_time))
-print("Elapsed partition time: " + str(elapsed_partition_time))
-print("Elapsed write time: " + str(elapsed_write_time))
-print("Elapsed recombination time: " + str(elapsed_concatenation_time))
-print("Elapsed Final Indexing time: " + str(elapsed_indexing_time))
+open(str(dataset_name) + "_top" + str(top_k) + "_equidepth_sorted_time.txt", 'w').close()
+f = open(str(dataset_name) + "_top" + str(top_k) + "_equidepth_sorted_time.txt", "a")
+f.write("Number of datapoints in combination consideration: " + str(sum_of_re_evaluation) +"\n" +
+"Elapsed extraction time: " + str(elapsed_extract_time) + "\n" +
+"Elapsed partition time: " + str(elapsed_partition_time) + "\n" +
+"Elapsed write time: " + str(elapsed_write_time) + "\n"+
+"Elapsed recombination time: " + str(elapsed_concatenation_time) + "\n"+
+"Elapsed Final Indexing time: " + str(elapsed_indexing_time) + "\n")
+f.close()

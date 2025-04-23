@@ -32,7 +32,7 @@ class bcolors:
 
 if __name__ == '__main__':
     username = 'jshin/csc200'
-    topk_l = [5, 10, 100]
+    topk_l = [1, 5, 10]
     dataset_l = [
         dataset_name,
 

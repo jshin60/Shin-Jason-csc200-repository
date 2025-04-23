@@ -258,9 +258,7 @@ if __name__ == '__main__':
                  'n_centroid_per_subspace': 8, 'dim_per_subspace': 16},
             ],
             'retrieval_parameter_l': [
-                {'n_candidate': 20},
-                {'n_candidate': 30},
-                {'n_candidate': 50},
+                {'n_candidate': 20}
             ],
             'grid_search': False,
             'grid_search_para': {
